@@ -1,0 +1,32 @@
+# Environnements Python
+.venv/
+venv/
+env/
+
+# Variables et secrets locaux
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Fichiers temporaires Python et outils
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Artefacts de compilation et journaux
+build/
+dist/
+*.egg-info/
+*.log
+
+# Fichiers generes par le systeme
+.DS_Store
+Thumbs.db
+
+# Modele volumineux, inutile au dashboard
+co2_model.pkl
